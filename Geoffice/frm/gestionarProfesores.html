@@ -1,0 +1,56 @@
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/select2.css">
+<link rel="stylesheet" type="text/css" href="css/sweetalert2.css">  
+<div id="profesores" class="container">
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form role="form" id="formProfesores" >
+
+            <center><h2>Gestionar Profesores</h2></center>
+
+            <hr class="colorgraph">
+
+            <div class="form-group">
+				<label for="txtNombre" >Nombre Profesor</label>
+                <input type="text" name="txtNombre" id="txtNombre" class="form-control input-lg" placeholder="Nombre" >
+            </div>
+			
+			<div class="form-group">
+				<label for="txtCorreo" >Correo</label>
+                <input type="email" name="txtCorreo" id="txtCorreo" class="form-control input-lg" placeholder="Correo">
+            </div>
+
+			<div class="form-group">
+				<label for="txtFacultad" >Facultad</label>
+				<select class="form-control" data-placeholder="Seleccione Una Oficina" name="txtFacultad" id="txtFacultad" style="width:100%">
+					<option value="Ciencias Basicas">Ciencias Basicas</option>
+					<option value="Ciencias Economicas">Ciencias Economicas</option>
+					<option value="Comunicacion y Publicidad">Comunicacion y Publicidad</option>
+					<option value="Derecho">Derecho</option>
+					<option value="Educación">Educación</option>
+					<option value="Ingenieria">Ingenieria</option>
+					<option value="Salud">Salud</option>
+				</select>
+            </div>
+			
+            <hr class="colorgraph">
+
+            <div class="text-center">
+                <button type="button" class="btn btn-primary" id="btnRgstrarProf" >Registrar</button>
+				<button type="button" class="btn btn-danger" id="btnLimpiar" >Limpiar</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+	<div class="form-group">
+		<table id="tblProfesores" class="display" width="100%"></table>
+	</div>
+    </div>
+</div>
+<script type="text/JavaScript" src="js/RegistrarUs.js"></script>
+<script type="text/JavaScript" src="js/select2.js"></script>
+<script type="text/JavaScript" src="js/bootstrap.js"></script> 
+<script type="text/JavaScript" src="js/sweetalert2.js"></script>
+
+

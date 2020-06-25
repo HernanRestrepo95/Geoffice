@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.: GeOffice | Solicitudes :.</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/33-512.png" /> 
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
+        <script type="text/JavaScript" src="js/jquery/jquery-1.7.1.js"></script>
+        <script type="text/JavaScript" src="js/Solicitud.js"></script>
+    </head>
+    <body style="background: url(img/BackGroundWeb.png) no-repeat center center fixed; background-size: 100% 100%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form role="form" id="formLogin">
+
+                <br>
+                    <div class="form-group">
+						<center>
+							<h2>Solicitudes</h2>
+						</center>
+                    </div>
+					<div id="texto" class="form-group">
+                    </div>
+
+                    <hr class="colorgraph">
+					<div class="text-center">
+						<button type="button" class="btn btn-primary" id="btnAprobar" >Aprobar</button>
+						<button type="button" class="btn btn-warning" id="btnAgendar" >Agendar</button>
+						<button type="button" class="btn btn-danger" id="btnDenegar" >Denegar</button>
+					</div>
+					<div class="modal" id="loadModalLog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div style="margin-top: 20%;" align="center" class="sk-three-bounce">
+							<img src="img/Glow2.gif" alt="Cargando..." style="width:15%; height:15%; opacity: 0.5;" />
+						</div>
+					</div>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+	<script type="text/JavaScript" src="js/bootstrap.js"></script>
+	<script type="text/JavaScript" src="js/sweetalert2.js"></script>
+    </body>    
+</html>

@@ -1,0 +1,44 @@
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/select2.css">
+<link rel="stylesheet" type="text/css" href="css/sweetalert2.css">
+<div id="oficinas" class="container">
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form role="form">
+
+            <center><h2>Gestionar Oficinas</h2></center>
+
+            <hr class="colorgraph">
+
+            <div class="form-group">
+				<label for="selectProfesor" >Profesor</label>
+                <select class="form-control" data-placeholder="Seleccione Un Profesor" name="selectProfesor" id="selectProfesor" style="width:100%">
+				</select>
+            </div>
+
+			<div class="form-group">
+				<label for="selectOficina" >Oficina</label>
+				<select class="form-control" data-placeholder="Seleccione Una Oficina" name="selectOficina" id="selectOficina" style="width:100%">
+				</select>
+            </div> 
+
+            <hr class="colorgraph">
+
+            <div class="text-center">
+                <button type="button" class="btn btn-primary" id="btnRgstrarProfOfi">Registrar</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+	<div class="form-group">
+		<table id="oficinaProfesor" class="display" width="100%"></table>
+	</div>
+    </div>
+</div>
+<script type="text/JavaScript" src="js/GestionarOficinas.js"></script>
+<script type="text/JavaScript" src="js/select2.js"></script>
+<script type="text/JavaScript" src="js/bootstrap.js"></script> 
+<script type="text/JavaScript" src="js/sweetalert2.js"></script>
+
+
